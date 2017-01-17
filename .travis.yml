@@ -1,6 +1,17 @@
 cache:
   directories:
     - node_modules
+deploy:
+  access_key_id: GOOGAPI2JYRMRONGVOXT
+  acl: public-read
+  bucket: imagi-ng-annotation
+  local-dir: build
+  on:
+    repo: imagi-ng/annotation
+  provider: gcs
+  secret_access_key:
+    secure: UbI2RMJG6T78YfJSpsa1PFWnYpQvH0K49Z8fneKrkkh77xCk2onMH4HJpSGmUGCtgfKGdwiFyoCfEV8I04Aughft96mkX5le4w5Pa4mGgOs1Rmn2D4jKHjgg6NlikNBgI4fO9CdyE/yVWCE0eCmzwqhSiLyDAJLHiVoWnyQqPSZdLexkSqtJ//P05TjVYrKN6uk7o9fxXVKPsJbX6CVPRDmigWnRt535xAYQ4QczRCkCoHbaqXwz3L72yzC0NF5QhVyF5OmpWa7xafuD05KpZMWFI9wxu1fu3buWJAvAXzJknHpz64Qup1vRW6MBTNnmD0AIFVeHNNL5nTyE63IaBZJuP6JMty+s6+KsQXBVOfwqN4FrgKazpEo1fV9xkuMWE5e6E6taJZ4y3j4j+6+21W9/wYFtXZJSpIHpR5YwjVYAsdUMyxMwS8Rm1580B8Ekw+/PtM6lTgztOuF+FmFfJ0oZuuQ6OGca6VHaKnu1Te+5GrCqLPNupOTsn34Hnnqn6z2iMPK9lkq+8ELWw6pw+WEn2eEK+tnDN9Ufe6wmjwiCrCQcCqzoUrRSr5n/bpHaGeHh9E/6I7H5DvSvpUJwC5sSen5jF/U3rWpWOC8MMKVZB60yNTK3O7ucng9NEmK8HhG9+2JK6WNM2VLjCAvER+FvwQ4NAOzF1HV6eiWXTLo=
+  skip_cleanup: true
 language: node_js
 node_js:
   - 5
