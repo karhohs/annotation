@@ -4,7 +4,7 @@ cache:
 deploy:
   access_key_id: GOOGAPI2JYRMRONGVOXT
   acl: public-read
-  bucket: imagi-ng-annotation
+  bucket: annotation.imagi.ng
   local-dir: build
   on:
     repo: imagi-ng/annotation
