@@ -1,13 +1,16 @@
 {
+  "author": "Allen Goodman <allen.goodman@icloud.com>",
   "dependencies": {
-    "react": "^15.4.2",
+    "react": "^15.5.3",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
-    "react-scripts": "0.8.5"
+    "react-scripts": "0.9.5"
   },
+  "license": "MIT",
   "name": "annotation",
   "private": true,
+  "repository": "git@github.com:imagi-ng/annotation.git",
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",

@@ -17,5 +17,5 @@ node_js:
   - 5
   - 6
 script:
-  - npm test
-  - npm run build
+  - yarn test
+  - yarn build
